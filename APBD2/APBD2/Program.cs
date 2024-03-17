@@ -8,12 +8,12 @@ Console.WriteLine("3");
 //zad1
 static int AverageOfArray(int[] arr)
 {
-    int sum = 0;
+    int sum1 = 0;
     foreach (int num in arr)
     {
-        sum += num;
+        sum1 += num;
     }
-    return sum / arr.Length;
+    return sum1 / arr.Length;
 }
 //zad2
 static int MaxOfArray(int[] arr)

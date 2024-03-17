@@ -15,3 +15,15 @@ static int AverageOfArray(int[] arr)
     }
     return sum / arr.Length;
 }
+//zad2
+static int MaxOfArray(int[] arr)
+{
+    int max = arr[0];
+    foreach (int num in arr)
+    {
+        if (num > max)
+            max = num;
+    }
+    return max;
+}
+
